@@ -20,7 +20,7 @@ It simply loads **User Data** from API and stores it in persistence storage (i.e
 - [Glide](https://github.com/bumptech/glide) - An image loading library.
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
 ## Contact
-If you need any help, you can connect with me.
+If you need any help, you can contact me.
 
 ## License
 ```
