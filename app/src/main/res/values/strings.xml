@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ShadiCards</string>
+    <string name="retry">Retry</string>
+    <string name="Decline">Decline</string>
+    <string name="Declined">Declined</string>
+    <string name="accept">Accept</string>
+    <string name="accepted">Accepted</string>
 </resources>

@@ -47,10 +47,10 @@ object Dependencies {
         val liveDataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
 
         object Room {
-            val version = "2.2.3"
+            const val version = "2.3.0-alpha02"
             val compiler = "androidx.room:room-compiler:$version"
             val runtime = "androidx.room:room-runtime:$version"
-            val coroutine = "androidx.room:room-ktx:$version"
+            val ktx = "androidx.room:room-ktx:$version"
         }
 
         object Navigation {
@@ -60,9 +60,10 @@ object Dependencies {
             val uiKtx = "androidx.navigation:navigation-ui-ktx:$version"
         }
 
-        object Work {
-            val version = "2.3.1"
-            val runtimeKtx = "androidx.work:work-runtime-ktx:$version"
+        object Paging {
+            val version = "3.0.0-alpha03"
+            val runtime = "androidx.paging:paging-runtime:$version"
+            val ktx = "androidx.paging:paging-runtime-ktx:$version"
         }
     }
 
@@ -73,11 +74,7 @@ object Dependencies {
         val okio = "com.squareup.okio:okio:1.14.0"
     }
 
-    object Paging {
-        val version = "3.0.0-alpha01"
-        val runtime = "androidx.paging:paging-runtime:$version"
-        val ktx = "androidx.paging:paging-runtime-ktx:$version"
-    }
+
 
     object Hilt {
         val hiltVersion = "2.28-alpha"
@@ -86,7 +83,6 @@ object Dependencies {
         val compiler = "androidx.hilt:hilt-compiler:$hiltAndroidXVersion"
         val androidCompiler = "com.google.dagger:hilt-android-compiler:$hiltVersion"
         val viewmodel = "androidx.hilt:hilt-lifecycle-viewmodel:$hiltAndroidXVersion"
-        val work = "androidx.hilt:hilt-work:$hiltAndroidXVersion"
     }
 
     object Retrofit {
